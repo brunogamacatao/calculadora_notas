@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <title>index</title>
+    <script type="text/javascript" charset="utf-8" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js">
+    </script>
+    <script type="text/javascript" charset="utf-8" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.21/jquery-ui.min.js">
+    </script>
+    <script type="text/javascript" charset="utf-8" src="http://ajax.microsoft.com/ajax/jquery.templates/beta1/jquery.tmpl.min.js">
+    </script>
+    <script type="text/javascript" charset="utf-8" src="js/jquery.maskMoney.js">
+    </script>
+    <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/themes/ui-lightness/jquery-ui.css" type="text/css" media="all" />
+  </head>
+  <body>
+    <label for="nota">Nota:</label>
+    <input type="text" id="nota" class="campo_nota"/>
+    </br>
+    <label for="nota">Nota:</label>
+    <input type="text" id="nota2" class="campo_nota"/>
+    
+    <script type="text/javascript" charset="utf-8" src="js/jquery.calculadora_notas.js">
+    </script>
+    
+    <script type="text/javascript" charset="utf-8">
+      $(document).ready(function() {
+        $('.campo_nota').calculadora();
+      });
+    </script>
+  </body>
+</html>
